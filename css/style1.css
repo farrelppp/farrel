@@ -1,0 +1,276 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #37E6F7;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #37E6F7;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.active{
+	background-color: #37E6F7;
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(55, 230, 247, .6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #37E6F7;
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: #B3FAE9;
+}
+footer{
+	padding: 100px 0;
+	background-color: #AAF9EF;
+	color: #FFC300;
+	text-align: center;
+}
+.services{
+	background-color: #f9f9f9;
+}
+.box{
+	color: #10DBE9;
+}
+.box:after{
+	content: " ";
+	display: block;
+	clear: both;
+
+}
+.box .col-4{
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+
+}
+.icon{
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.box .col-4 h4{
+	margin: 20px 0;
+
+
+}
+
+.popup {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+
+}
+
+.popup__content {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(0,0,0, .2);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.25);
+    opacity: 0;
+    transition: all .5s .1s;
+}
+
+.popup__img {
+    display: flex;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.popup__img img {
+    display: block;
+    margin-left: 50%;
+    
+    
+    width: 60%;
+}
+
+.popup__header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.popup__text {
+    padding: 0 36px;
+    line-height: 1.4;
+}
+
+.popup__btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #eee;
+    font-weight: 500;
+
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 100px;
+    margin-left: 39%;
+    transform: translateX(-50);
+    background-color: #10DBE9;
+    margin-bottom: 30px;
+}
+
+.popup1__btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #eee;
+    font-weight: 500;
+
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 100px;
+    margin-left: 43%;
+    transform: translateX(-50);
+    background-color: #10DBE9;
+    margin-bottom: 30px;
+}
+
+#popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#popup:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(.80);
+
+}
+
+#popup1:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#popup1:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(.80);
+
+}
+
+#popup2:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#popup2:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(.80);
+
+}
+
+#popup3:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#popup3:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(.80);
+
+}
+
+#popup4:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+#popup4:target .popup__content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(.80);
+
+}
+
+

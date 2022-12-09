@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../master-web-calculator"
+		},
+		{
+			"path": "../../web jualan"
+		},
+		{
+			"path": "../../../xampp/htdocs/tugas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "master-web-calculator"
+	}
+}
